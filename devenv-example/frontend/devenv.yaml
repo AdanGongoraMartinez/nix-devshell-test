@@ -1,0 +1,5 @@
+# Dev environment para el proyecto frontend - Node.js 20
+# Equivalente a flake-example/frontend/flake.nix
+inputs:
+  nixpkgs:
+    url: github:NixOS/nixpkgs/nixos-unstable

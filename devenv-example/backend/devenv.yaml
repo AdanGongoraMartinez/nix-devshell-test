@@ -1,0 +1,7 @@
+# Dev environment para el proyecto backend - .NET 7 (EOL/inseguro, permitido)
+# Equivalente a flake-example/backend/flake.nix
+nixpkgs:
+  # Permitir paquetes inseguros tal como el flake usa config.permittedInsecurePackages
+  permitted_insecure_packages:
+    - dotnet-sdk-7.0.410
+    - dotnet-sdk-wrapped-7.0.410
